@@ -1,0 +1,31 @@
+{
+  "name": "ansi-styler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ANSI.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariusmaydev/ansi-styler.git"
+  },
+  "keywords": [
+    "ansi",
+    "styler",
+    "javascript"
+  ],
+  "author": {
+    "name": "Marius May",
+    "email": "developer@mariusmay.de",
+    "url": "https://github.com/mariusmaydev"
+  },
+  "scripts": {
+    "build-docs": "npm run-script build-docs"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariusmaydev/ansi-styler/issues"
+  },
+  "homepage": "https://github.com/mariusmaydev/ansi-styler#readme",
+  "devDependencies": {
+    "readme-md-generator": "^1.0.0"
+  }
+}

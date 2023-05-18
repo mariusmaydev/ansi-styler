@@ -1,5 +1,5 @@
 {
-  "name": "ansi-styler",
+  "name": "@vollgutalter/ansi-styler",
   "version": "1.0.0",
   "description": "",
   "main": "ANSI.js",
@@ -18,7 +18,7 @@
     "url": "https://github.com/mariusmaydev"
   },
   "scripts": {
-    "build-docs": "npm run-script build-docs"
+    "generate-docs": "node_modules/.bin/jsdoc -c jsdoc.json"
   },
   "license": "MIT",
   "bugs": {
@@ -27,5 +27,9 @@
   "homepage": "https://github.com/mariusmaydev/ansi-styler#readme",
   "devDependencies": {
     "readme-md-generator": "^1.0.0"
+  },
+  "dependencies": {
+    "docdash": "^2.0.1",
+    "jsdoc": "^4.0.2"
   }
 }
